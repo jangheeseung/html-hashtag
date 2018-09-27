@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+@import url('https://fonts.googleapis.com/css?family=Jua');
+body {
+    background-image:url('http://www.jangsada.com/files/attach/images/1572/500/002/db0e26c4043c42908ad321de21aeef76.jpg');
+    background-size: cover;
+    font-family: 'Jua', sans-serif;
+}
+
+.container1 {
+    color: white;
+    width: 660px;
+    height: 100%;
+    margin: auto;
+}  
+
+.container2 {
+  background-color: white;
+ opacity: 0.8;
+    filter: alpha(opacity=40); 
+    width: 400px;
+    margin: auto;
+}
+
+.container3{
+    padding-top: 200px;
+    padding-left: 230px;
+    width: 760px;
+    margin: auto;
+    
+}
+
+h1 {
+    padding-left: 70px;
+}
+
+.t1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.b1{
+    padding-left: 250px;
+}

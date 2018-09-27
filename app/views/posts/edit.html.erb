@@ -1,0 +1,10 @@
+<div class=container3>
+<h2>게시글 수정</h2>
+    <form action='/posts/update/ <%=@post.id%>' method='post'>
+          <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+              <input type='text' name='post_title' value=<%=@post.title%>><br><br>
+              <input type='text' name='post_content' value= <%= @post.content %>><br><br>
+              <input type='text' name='hashtags' value=<% @post.hashtags.each do |onetag|%><%=onetag.name%><%end%> ><br><br>
+              <input type='submit'  class="btn btn-light" value='다시제출'>
+    </form>
+</div>
